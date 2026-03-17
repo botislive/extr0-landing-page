@@ -10,6 +10,17 @@ export const metadata: Metadata = {
     title: "Extr0 — Zero Extra Spend on AI",
     description: "Stop overpaying for AI APIs. Extr0 routes every request to the cheapest, fastest model automatically.",
     type: "website",
+    url: "https://extr0.ai",
+    siteName: "Extr0",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Extr0 — Zero Extra Spend on AI",
+    description: "Intelligently route AI requests to the most cost-efficient models.",
+    creator: "@extr0_ai",
+  },
+  alternates: {
+    canonical: "https://extr0.ai",
   },
 };
 

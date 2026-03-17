@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { Zap, GitBranch, Shield, Activity } from "lucide-react";
 
 const steps = [
@@ -118,10 +119,13 @@ export default function SolutionSection() {
           <div className="absolute -inset-2 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-[2.5rem] blur-2xl opacity-50 pointer-events-none" />
           <div className="relative rounded-3xl overflow-hidden glass-card border border-white/10 shadow-2xl">
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/5 to-purple-500/5 pointer-events-none" />
-            <img 
+            <Image 
               src="/dashboard.png" 
               alt="Extr0 Cost Optimization Dashboard" 
+              width={1200}
+              height={800}
               className="w-full h-auto rounded-2xl"
+              priority
             />
           </div>
           
